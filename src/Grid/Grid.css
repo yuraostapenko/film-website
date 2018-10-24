@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        height: calc(100vh - 36px);
+        width: 100%;
+        align-content: flex-start;
+        justify-content: space-evenly;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 3px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #d4d8da
+    }
+
+    ::-webkit-scrollbar-track-piece {
+        background-color: #666;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        height: 70px;
+        background-color: #d4d8da;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-corner {
+        background-color: #666;
+    }
+
+    ::-webkit-resizer {
+        background-color: #d4d8da;
+    }
+}

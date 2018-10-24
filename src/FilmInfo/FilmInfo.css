@@ -1,0 +1,192 @@
+.svg-calLoader {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    /* transform: translate(0, 0); */
+}
+
+
+.slick-arrow {
+    display: none;
+}
+
+.slick-next::before,
+.slick-prev::before {
+    content: '';
+
+}
+
+.headfoto {
+    width: 18%;
+    margin-right: 20px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+}
+
+.imgFilmInfo {
+    max-width: 100%;
+    top: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.headerFilmInfo {
+    height: 38vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headtext {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+.yearFilmInfo {
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    font-size: 16px;
+    display: block;
+}
+
+.titleFilmInfo {
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+}
+
+.timeFilmInfo {
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    font-size: 10px;
+    display: block;
+}
+
+.taglinefilmInfo {
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    font-size: 10px;
+    display: block;
+}
+
+.vote_averageFilmInfo {
+    font-family: 'K2D', sans-serif;
+    color: #212121;
+    font-size: 14px;
+    background-color: #FFEB3B;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.website {
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    font-size: 10px;
+    display: block;
+}
+
+.overwievTitle {
+    padding-left: 5px;
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    font-size: 20px;
+}
+
+.overwievText {
+    padding-left: 5px;
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    font-size: 12px;
+}
+
+.tubeTitle {
+    padding-left: 5px;
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    font-size: 20px;
+
+}
+
+.overwievFilmInfo {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.tubeFilmInfo {
+    margin-bottom: 12px;
+}
+
+.infoFilm {
+    background-color: #40373a;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.trailer-not-found{
+    width: 100%;
+}
+
+.sliderText {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'K2D', sans-serif;
+    /* color: #b4b1b2; */
+    font-size: 10px;
+}
+
+.sliderDiv {
+    width: 100%;
+    display: block;
+}
+
+.coverflow__cover__25-7e {
+    background-color: rgba(151, 151, 151, 1);
+}
+
+.sliderText {
+    background-color: rgba(151, 151, 151, 1);
+}
+
+.coverflow__text__39hqd {
+    display: none;
+}
+
+    .sliderImg {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .relatedFilmInfo {
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .recommend{
+        max-width: 100%;
+        margin: auto;
+        height: auto;
+        display: block;
+     }
+     
+    .coverflow__container__1P-xE {
+        background-color: red;
+    }
+
+    @media (min-width: 768px) {
+        .infoFilm {
+            width: 100%;
+        }
+
+
+    }

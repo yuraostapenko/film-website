@@ -1,0 +1,50 @@
+ .userInfo {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+.mess {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #272324;
+    border-radius: 5px;
+}
+
+.userImg {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.userName {
+    font-family: 'K2D', sans-serif;
+    margin-left: 20px;
+    font-size: 18px;
+    width: 40%;
+}
+
+.textMessage {
+    box-sizing: border-box;
+    background-color: #3b5998;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: block;
+    margin-right: 20px;
+} 
+
+.deleteMessage {
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    text-align: center;
+    padding: 0 2px;
+    background-color: #40373a;
+    cursor: pointer;
+}

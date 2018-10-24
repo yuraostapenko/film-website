@@ -1,0 +1,51 @@
+.wish {
+    background-color: #4c4145;
+    display: none;
+    
+}
+
+.wishlistTitle{
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+   
+}
+
+.navwish{
+    text-decoration: none;
+}
+
+.whishlistAverage{
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+ 
+}
+.todayBestChoice {
+    position: static;
+}
+
+.wishlistText {
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    text-align: center;
+    padding: 10px;
+    background-color: #40373a;
+    display: block;
+    position: static;
+}
+
+@media(min-width: 768px) {
+    .wish {
+    display: block;
+    width: 100%;
+    text-align: center;
+    }
+
+    .wishCards{
+        height: calc(100vh - 230px);
+        overflow-y: scroll; 
+    }
+    
+    .whishlistImg{
+        width: 50%;
+    }
+}

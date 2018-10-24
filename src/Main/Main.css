@@ -1,0 +1,54 @@
+.label {
+    position: relative;
+    display: block;
+}
+.mainForm {
+    padding: 7px;
+    /* width: 98%; */
+}
+
+.mainInput {
+    display: block;
+    border: 1px solid #d4d8da;
+    height: 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.fa-search {
+    position: absolute;
+    left: 75%;
+    top: 4px;
+}
+
+.fa-bars {
+    top: 4px;
+    position: absolute;
+    left: 85%;
+}
+
+.fata {
+    top: 4px;
+    position: absolute;
+    left: 92%;
+}
+
+@media(min-width: 768px) {
+    .main {
+        width: 50%;
+    }
+
+    .fa-bars, .fata {
+        display: none;
+    }
+    
+    .mainInput {
+        width: 98%;
+    }
+
+    .fa-search {
+        top: 3px;
+        left: 94%;
+    }      
+}
+

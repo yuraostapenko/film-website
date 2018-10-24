@@ -1,0 +1,157 @@
+.menu {
+    background-color: #4c4145;
+    padding-bottom: 2px;
+}
+
+.iconLog {
+    margin-right: 2px;
+}
+
+.fa-sign-in-alt {
+    margin-right: 2px;
+}
+
+.signIn {
+    border-radius: 10px;
+    outline: none;
+    padding: 2px;
+    margin-right: 2px;
+    font-family: 'K2D', sans-serif;
+}
+
+.logo {
+    height: 35px;
+    background-color: #40373a;
+    color: #fef850;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+.logoText {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.menuLink {
+    text-decoration: none;
+    font-family: 'K2D', sans-serif;
+    color: #b4b1b2;
+    margin-left: 3px;
+}
+
+.nav {
+    position: relative;
+}
+
+.menuHidden {
+    box-sizing: border-box;
+    position: absolute;
+    top: -500px;
+    /* transition: 1s; */
+    z-index: 1;
+    background-color: rgba(76, 65, 69, 0.9);
+}
+
+.menuShow {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    transition: 1s;
+    background-color: rgba(76, 65, 69, 0.9);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.listItem:hover>i,
+.listItem:hover>.menuCount {
+    color: #fff;
+}
+
+.listItem:hover>.menuCount {
+    background-color: #fe505a;
+}
+
+.listItem:hover>.menuLink {
+    color: #fff;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.menuCount {
+    background-color: #40373a;
+    display: block;
+    margin-left: auto;
+    color: #b4b1b2;
+    padding: 2px 5px;
+    border-radius: 2px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.far,
+.fas {
+    color: #b4b1b2;
+}
+
+.fa-file-video {
+    color: blue;
+}
+
+.closeMenu {
+    list-style: none;
+    color: #fff;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+@media(min-width: 768px) {
+    .signIn {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .logoText {
+        font-size: 20px;
+    }
+
+    .menuHidden {
+        position: static;
+    }
+
+    .closeMenu {
+        display: none;
+    }
+
+    .menu {
+        width: 25%;
+    }
+
+    .menuLink {
+        font-size: 12px;
+    }
+
+    .menuCount {
+        font-weight: 600;
+    }
+}
+
+@media(min-width: 1200px) {
+    .menuLink {
+        font-size: 18px;
+    }
+}
